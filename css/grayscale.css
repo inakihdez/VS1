@@ -178,7 +178,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 35px;
     font-size: 40px;
     color: #000;
@@ -192,7 +192,7 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: #000;
-    background: rgba(255,255,255,.1);
+    background: rgba(192,192,192,.1);
 }
 
 .btn-circle i.animated {
