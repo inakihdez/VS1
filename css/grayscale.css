@@ -8,8 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #000;
 }
 
 html {
@@ -34,13 +33,15 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    color: #000;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 25px;
         font-size: 20px;
         line-height: 1.6;
+        color: #000;
     }
 }
 
@@ -88,6 +89,7 @@ a:focus {
     outline: 0;
 }
 
+
 .navbar-custom a {
     color: #fff;
 }
@@ -131,36 +133,65 @@ a:focus {
     }
 }
 
-.post-heading h1 {
-  font-size: 35px;
+.about {
+    width: 100%;
+    padding: 1000px 0;
+    margin-top: 1000px;
+    height: 1800px;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+
 }
-.post-heading .subheading,
- .post-heading .meta {
-  line-height: 1.1;
-  display: block;
+
+#cierre {
+    background: url(https://scontent-a.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10606342_10154652117820161_3571257566100309874_n.jpg?oh=86c07e9c56aa90b88a887cbd4a4d40a3&oe=55551AEE) no-repeat center center scroll;
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
-.post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  margin: 10px 0 30px;
-  font-weight: 600;
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
 }
- .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 20px;
+.pad-section img {
+  width: 100%;
 }
- .post-heading .meta a {
-  color: black;
+
+
+#information {
+  background: url(http://upload.wikimedia.org/wikipedia/commons/4/47/Gran_ca%C3%B1on_del_colorado.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-@media only screen and (min-width: 768px) {
-  .post-heading h1 {
-    font-size: 55px;
-  }
-  .post-heading .subheading {
-    font-size: 30px;
-  }
+
+#segundafoto {
+  background: url(http://img.europapress.net/fotoweb/fotonoticia_20140802140503_644.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#information .panel {
+  opacity: 0.85;
 }
 
 .intro {
@@ -170,12 +201,24 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background: url(http://img.europapress.net/fotoweb/fotonoticia_20141212164920_3000.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.row {
+    margin-left: -20px;
+    *zoom: 1;
+}
+
+.row-top-margin {margin-top:15%; }
+
+.row-bottom-margin {margin-bottom:15%; }
+
+
 
 .intro .intro-body {
     display: table-cell;
@@ -203,6 +246,12 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+    .about {
+    width: 100%;
+    height: 800px;
+    padding: 500px 0;
+    margin-top: 500px;
+    color: #000;
 }
 
 .btn-circle {
@@ -210,10 +259,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 35px;
     font-size: 40px;
-    color: #000;
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -223,8 +272,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #000;
-    background: rgba(192,192,192,.1);
+    color: #fff;
+    background: rgba(255,255,255,.1);
 }
 
 .btn-circle i.animated {
@@ -280,14 +329,14 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 140px;
+    padding-top: 100px;
 }
 
 .download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(http://img.europapress.net/fotoweb/fotonoticia_20140611154248_3000.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -307,6 +356,10 @@ a:focus {
     }
 
     .download-section {
+        padding: 100px 0;
+    }
+    
+    .about-section {
         padding: 100px 0;
     }
 
