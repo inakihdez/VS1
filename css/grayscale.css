@@ -329,7 +329,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .download-section {
@@ -360,7 +360,7 @@ a:focus {
     }
     
     .about-section {
-        padding: 100px 0;
+        padding: 150px 0;
     }
 
     #map {
