@@ -221,12 +221,14 @@ a:focus {
 .post-heading h1 {
   font-size: 35px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 10px 0 30px;
+  margin: 100px 0 30px;
 }
 
 @media only screen and (min-width: 768px) {
   .post-heading h1 {
     font-size: 65px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 100px 0 30px;
   }
 }
 
