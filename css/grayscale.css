@@ -218,7 +218,9 @@ a:focus {
 
 .row-bottom-margin {margin-bottom:15%; }
 
-
+.post-heading h1 {
+  font-size: 35px;
+}
 
 .intro .intro-body {
     display: table-cell;
